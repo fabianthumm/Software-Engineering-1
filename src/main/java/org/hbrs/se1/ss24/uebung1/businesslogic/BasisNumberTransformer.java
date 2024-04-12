@@ -10,6 +10,8 @@ public abstract class BasisNumberTransformer implements NumberTransformer {
 
     @Override
     public String transformNumber(int number) {
+
+        // Pruefen ob number im Wertebereich ist
         if (number < 1 || number > 3000) {
             return "Eingabe ausserhalb des Wertebereichs!";
         }

@@ -19,12 +19,6 @@ public class RomanNumberTransformer extends BasisNumberTransformer {
 
     @Override
     public String getTransformerType() {
-        return "Transformer für deutsche Zahlenformatierungen";
-    }
-
-    public class Factory {
-        public static NumberTransformer createRomanNumberTransformer() {
-            return new RomanNumberTransformer();
-        }
+        return "Transformer für römische Zahlen";
     }
 }
