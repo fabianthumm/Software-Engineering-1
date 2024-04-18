@@ -1,0 +1,12 @@
+ # idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# run
+
+run/
+out/
+target/
